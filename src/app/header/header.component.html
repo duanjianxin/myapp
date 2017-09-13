@@ -1,0 +1,42 @@
+<header id="header">
+  <div class="top-line"></div>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container ">
+      <div class="container-fluid row">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">  
+                    <span class="sr-only">Toggle navigation</span>  
+                    <span class="icon-bar"></span>  
+                    <span class="icon-bar"></span>  
+                    <span class="icon-bar"></span>  
+                </button>
+          <a class="navbar-brand" [routerLink]="['/']">Brand Name</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav ">
+            <li><a [routerLink]="['/']">首页</a></li>
+            <li><a [routerLink]="['/about']">代理产品</a></li>
+            <!-- <li><a [routerLink]="['/#']">解决方案</a></li> -->
+
+            <li role="presentation" class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                解决方案 <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/fangan/xiaofei/"> 消费类 </a></li>
+                <li><a href="/fangan/LED/"> LED照明 </a></li>
+                <li><a href="/fangan/iot/"> 可穿戴IOT </a></li>
+                <li><a href="/fangan/dianyuan/"> 电源 </a></li>
+              </ul>
+            </li>
+            <li><a [routerLink]="['/#']">新闻资讯</a></li>
+            <li><a [routerLink]="['/#']">人才招聘</a></li>
+            <li><a [routerLink]="['/#']">关于我们</a></li>
+            <li><a [routerLink]="['/#']">联系我们</a></li>
+            <li><a [routerLink]="['/#']">好上好控股</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

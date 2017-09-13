@@ -1,0 +1,28 @@
+#header {
+  height:63px;
+  .top-line {
+    height: 5px;
+    background: #efefef;
+}
+
+  .container-fluid{
+    padding:0;
+  }
+  .navbar {
+    margin-bottom: 0;
+    height:61px;
+    background:#fff;
+  }
+.navbar-header a{
+  margin:5px auto;
+}
+// nav条
+  .collapse{
+    .nav li{
+      text-align: center;
+    }
+    .nav li a{
+      margin:5px auto;
+    }
+  }
+}
