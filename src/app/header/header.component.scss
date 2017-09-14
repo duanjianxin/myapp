@@ -1,28 +1,60 @@
-#header {
-  height:63px;
+header {
+  .r{
+    float:right;
+  }
+  .l{
+    float:left;
+  }
+  .clear{
+    clear: both;
+    display: block;
+  }
+  height: 63px;
   .top-line {
     height: 5px;
     background: #efefef;
-}
-
-  .container-fluid{
-    padding:0;
   }
-  .navbar {
-    margin-bottom: 0;
-    height:61px;
-    background:#fff;
+  .box1000 {
+    margin: 0 auto;
+    position: relative;
+    clear: both;
+    .top {
+      height: 30px;
+      line-height: 30px;
+      background: #efefef;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      padding-right: 10px;
+      float:right;
+      .sina{
+        float:left;
+        a{
+          display: block;
+          background: url('../../assets/images/sina.jpg') no-repeat 17px center;
+          padding: 0 15px 0 42px;
+          color: #000;
+        }
+      }
+      .lang{
+        li{
+          float: left;
+          padding: 0 15px;
+          a{
+            text-decoration: none;
+            color: #666;
+          }
+        }
+      }
+    }
   }
-.navbar-header a{
-  margin:5px auto;
-}
-// nav条
-  .collapse{
-    .nav li{
-      text-align: center;
-    }
-    .nav li a{
-      margin:5px auto;
-    }
+  .box1000:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  .container-fluid {
+    padding: 0;
   }
 }
