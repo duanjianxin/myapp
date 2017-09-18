@@ -1,60 +1,170 @@
 header {
-  .r{
-    float:right;
-  }
-  .l{
-    float:left;
-  }
-  .clear{
-    clear: both;
-    display: block;
-  }
-  height: 63px;
-  .top-line {
-    height: 5px;
-    background: #efefef;
-  }
-  .box1000 {
-    margin: 0 auto;
-    position: relative;
-    clear: both;
-    .top {
-      height: 30px;
-      line-height: 30px;
-      background: #efefef;
-      border-bottom-right-radius: 5px;
-      border-bottom-left-radius: 5px;
-      padding-right: 10px;
-      float:right;
-      .sina{
-        float:left;
-        a{
-          display: block;
-          background: url('../../assets/images/sina.jpg') no-repeat 17px center;
-          padding: 0 15px 0 42px;
-          color: #000;
-        }
-      }
-      .lang{
-        li{
-          float: left;
-          padding: 0 15px;
-          a{
-            text-decoration: none;
-            color: #666;
-          }
-        }
-      }
+    .r {
+        float: right;
     }
-  }
-  .box1000:after {
-    content: "";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-  }
-  .container-fluid {
-    padding: 0;
-  }
+    .l {
+        float: left;
+    }
+    .clear {
+        clear: both;
+        display: block;
+    }
+    height: 63px;
+    .top-line {
+        height: 5px;
+        background: #efefef;
+    }
+    .box1000 {
+        margin: 0 auto;
+        width: 1000px;
+        padding: 0;
+        position: relative;
+        clear: both;
+        .top {
+            height: 30px;
+            line-height: 30px;
+            background: #efefef;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            padding-right: 10px;
+            float: right;
+            .sina {
+                float: left;
+                a {
+                    display: block;
+                    background: url('../../assets/images/sina.jpg') no-repeat 17px center;
+                    padding: 0 15px 0 42px;
+                    color: #000;
+                }
+            }
+            .lang {
+                li {
+                    float: left;
+                    padding: 0 15px;
+                    a {
+                        text-decoration: none;
+                        color: #666;
+                    }
+                }
+            }
+        }
+    }
+    .box1000:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    .container-fluid {
+        padding: 0;
+    }
+}
+
+header {
+    a {
+        text-decoration: none;
+        color: #666;
+    }
+    // 导航条  端
+    .container-fluid {
+        .headerBox {
+            width: 1000px;
+            margin: 0 auto;
+            padding: 0;
+            ul.navPC {
+                padding-top: 35px;
+                li.relativeLi {
+                    float: left;
+                    margin: 0 6px;
+                    a {
+                        display: block;
+                        padding: 0 16px;
+                        height: 24px;
+                        line-height: 24px;
+                        font-size: 14px;
+                    }
+                    .sub {
+                        width: 88px;
+                        position: absolute;
+                        z-index: 9999;
+                        padding: 8px 0;
+                        background: #33cc33;
+                        display: none;
+                        li {
+                            width: 88px;
+                            text-align: center;
+                            margin: 0;
+                            a {
+                                padding: 0;
+                                text-align: center;
+                                color: #000;
+                                font-size: 12px;
+                            }
+                            a:hover {
+                                background: #fff;
+                                border-radius: 3px;
+                                margin: 0 5px;
+                            }
+                        }
+                    }
+                }
+                li.relativeLi:hover ul.sub {
+                    display: block;
+                }
+                li.relativeLi:hover a {
+                    background: #33cc33;
+                    color: #fff;
+                    border-top-left-radius: 3px;
+                    border-top-right-radius: 3px;
+                }
+                li.on a {
+                    background: #33cc33;
+                    color: #fff;
+                    border-top-left-radius: 3px;
+                    border-top-right-radius: 3px;
+                }
+            }
+        }
+    }
+    .headerMobile {
+        display: none;
+    }
+    .h20 {
+        height: 20px;
+    }
+}
+
+
+/* CSS Document */
+
+@media screen and (max-width: 999px) {
+    header {
+        .headerBox {
+            display: none;
+        }
+        .headerMobile {
+            display: block;
+            margin: 0 10px;
+        }
+        .box1000 {
+            width: auto;
+        }
+        .headerBox.container {
+            width: 100%;
+            margin: 0 auto;
+            padding: 0;
+        }
+        .mnav {
+            background: url('../../assets/images/header/mnav-ico.jpg') no-repeat;
+            display: block;
+            width: 25px;
+            height: 21px;
+            margin-top: 27px;
+            float: right;
+        }
+    }
+    .navPC {
+        display: none;
+    }
 }

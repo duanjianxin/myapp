@@ -9,10 +9,9 @@ declare var $: any;
 })
 export class HeaderComponent implements OnInit {
 
+  show: boolean = false;
   constructor() { }
-
   ngOnInit() {
 
   }
-
 }
