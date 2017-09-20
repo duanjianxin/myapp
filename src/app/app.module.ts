@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { CarouselComponent } from './home/carousel/carousel.component';
+import { MainComponent } from './home/main/main.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CarouselComponent } from './home/carousel/carousel.component';
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    CarouselComponent
+    CarouselComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
