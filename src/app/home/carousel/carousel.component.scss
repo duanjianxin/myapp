@@ -1,0 +1,15 @@
+:host ::ng-deep .ant-carousel .slick-slide {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  line-height: 160px;
+  background: #364d79;
+  color: #fff;
+  overflow: hidden;
+}
+
+.banner {
+  height: 428px;
+  position: relative;
+  z-index: 1;
+}

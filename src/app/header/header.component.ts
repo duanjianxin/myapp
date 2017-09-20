@@ -8,8 +8,7 @@ declare var $: any;
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
-  show: boolean = false;
+  show = false;
   constructor() { }
   ngOnInit() {
 
