@@ -2,10 +2,9 @@
   <div class="banner">
     <div class="bd">
       <ul>
-        <li nz-carousel-content *ngFor="let index of array">
-          <a href="#">
-            <img src="{{index}}"/>
-            </a></li>
+        <li nz-carousel-content *ngFor="let index of array" >
+            <div class="imgBox" [ngStyle]="{'background-image': 'url(' + index + ')'}"></div>
+        </li>
       </ul>
     </div>
   </div>
