@@ -46,14 +46,14 @@
   }
    :host /deep/ .boxWarp2 {
     display: block;
-    height: 428px;
+    height: 20vh;
     position: relative;
     z-index: 1;
     .slick-initialized {
       height: 100%;
       .slick-list {
         .slick-track .bd li .imgBox {
-          height: 428px;
+          height: 20vh;
           background-repeat: no-repeat;
           background-position: center;
           background-size: cover;
