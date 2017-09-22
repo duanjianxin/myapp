@@ -1,11 +1,19 @@
-<nz-carousel [nzAutoPlay]="true">
-  <div class="banner">
-    <div class="bd">
-      <ul>
-        <li nz-carousel-content *ngFor="let index of array" >
-            <div class="imgBox" [ngStyle]="{'background-image': 'url(' + index + ')'}"></div>
-        </li>
-      </ul>
-    </div>
+<nz-carousel [nzAutoPlay]="true" class="boxWarp">
+  <div class="bd">
+    <ul>
+      <li nz-carousel-content *ngFor="let index of array">
+        <div class="imgBox" [ngStyle]="{'background-image': 'url(' + index + ')'}"></div>
+      </li>
+    </ul>
+  </div>
+</nz-carousel>
+
+<nz-carousel [nzAutoPlay]="true" class="boxWarp2">
+  <div class="bd">
+    <ul>
+      <li nz-carousel-content *ngFor="let index of array">
+        <div class="imgBox" [ngStyle]="{'background-image': 'url(' + index + ')'}"></div>
+      </li>
+    </ul>
   </div>
 </nz-carousel>
