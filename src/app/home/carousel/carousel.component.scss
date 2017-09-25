@@ -46,17 +46,18 @@
   }
    :host /deep/ .boxWarp2 {
     display: block;
-    height: 20vh;
+    height: 158px;
     position: relative;
     z-index: 1;
     .slick-initialized {
       height: 100%;
       .slick-list {
         .slick-track .bd li .imgBox {
-          height: 20vh;
+          height: 158px;
           background-repeat: no-repeat;
           background-position: center;
           background-size: cover;
+          width: 100%;
         }
       }
     } //   进度块
@@ -66,7 +67,7 @@
       width: 162px;
       left: 50%;
       margin-left: -81px;
-      bottom: 60px;
+      bottom: 20px;
       li {
         float: left;
         width: 48px;

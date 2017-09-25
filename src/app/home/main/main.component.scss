@@ -1,0 +1,115 @@
+ .main-bg-repate {
+   background: url('/assets/images/main/main_bg_repate.jpg') repeat-x 0 44px;
+   position: relative;
+   z-index: 10;
+   top: -44px;
+   .main-bg {
+     background: url('/assets/images/main/main_bg.png') no-repeat center top;
+     min-height: 200px;
+     padding-top: 44px;
+     .w918 {
+       margin: 0 auto;
+       position: relative;
+       clear: both;
+       display: flex;
+       width: 918px; // 代理 产品
+       .main-box {
+         width: 276px;
+         float: left;
+         margin: 0 15px;
+         display: block;
+         .main-title {
+           font-size: 16px;
+           color: #33cc33;
+           margin-bottom: 10px;
+           font {
+             font-size: 14px;
+             color: #333;
+             margin-left: 10px;
+           }
+         }
+         .main-img {
+           img {
+             padding: 3px;
+             border: 1px solid #d7d7d7;
+             width: 268px;
+           }
+         } //  图片
+         .main-pic {
+           margin: 15px 0;
+           height: 188px;
+           ul li {
+             float: left;
+             margin: 4px;
+           }
+         }
+         .main-pic.pcnone{
+           display:none;
+         }
+         //  新闻 资讯
+         .main-list {
+           margin-top: 5px;
+           li {
+             border-bottom: 1px solid #d7d7d7;
+             background: url('/assets/images/main/main_ico.jpg') no-repeat 7px center;
+             a {
+               display: block;
+               line-height: 32px;
+               height: 32px;
+               padding-left: 17px;
+               color: #000;
+             }
+             a:hover {
+               color: #33cc33;
+             }
+           }
+         }
+       }
+     }
+   }
+ } // 移动端
+ @media screen and (max-width: 999px) {
+   .main-bg-repate {
+    background: none;
+    position: static;
+     .main-bg {
+      background: none;
+      position: static;
+       .w918 {
+         padding: 0 8px;
+         width: auto;
+         margin: 0 auto;
+         position: relative;
+         clear: both;
+         display: block;
+         .main-box {
+           margin: 0 0 20px;
+           width: auto;
+           float: none;
+           .main-img {
+            padding: 3px;
+            border: 1px solid #d7d7d7;
+            img {
+              width: 100%;
+              padding: 0;
+              border: 0;
+          }
+        }
+        .main-pic.mnone{
+          display: none;
+        }
+        .main-pic.pcnone{
+          ul li{
+            width:33.3333%;
+            margin:0;
+            img{
+              width:97%;
+              padding:3%;
+            }
+          }
+        }
+         }
+       }
+     }
+   }
+ }

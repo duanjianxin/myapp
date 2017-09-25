@@ -1,0 +1,37 @@
+.w918 {
+  width: 918px;
+  margin: 0 auto;
+  position: relative;
+  clear: both;
+  .index-about-line {
+    height: 9px;
+    background: url('/assets/images/main/about/index_about_ico.jpg') repeat-x;
+    margin-top: 30px;
+  }
+  .index-about {
+    padding: 40px 15px 0;
+    .about-title {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 26px;
+      color: #33cc33;
+      text-align: center;
+    }
+    .about-info {
+      font-size: 14px;
+      line-height: 24px;
+      color: #333;
+      margin-top: 10px;
+    }
+  }
+}
+
+// 移动端
+@media screen and (max-width: 999px) {
+  .w918 {
+    padding: 0 8px;
+    width: auto;
+    .index-about {
+      padding: 40px 15px 0;
+    }
+  }
+}
