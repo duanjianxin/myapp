@@ -18,7 +18,7 @@
       </div>
       <ul class="nav navPC row">
         <li class="relativeLi"><a [routerLink]="['/']">首页</a></li>
-        <li class="relativeLi"><a [routerLink]="['/']">代理产品</a></li>
+        <li class="relativeLi"><a [routerLink]="['/dlcp']">代理产品</a></li>
         <li class="relativeLi">
           <a [routerLink]="['/']">解决方案</a>
           <ul class="sub">
@@ -53,7 +53,7 @@
     <div class="MobileNav" *ngIf="show">
       <ul class="nav pcnone" >
         <li class="nli"><a [routerLink]="['/']">首页</a></li>
-        <li class="nli"><a [routerLink]="['/']">代理产品</a> </li>
+        <li class="nli"><a [routerLink]="['/dlcp']" (click)="show = !show" >代理产品</a> </li>
         <li class="nli"><a [routerLink]="['/']">解决方案</a></li>
         <li class="nli"><a [routerLink]="['/']">新闻资讯</a></li>
         <li class="nli"><a [routerLink]="['/']">人才招聘</a></li>

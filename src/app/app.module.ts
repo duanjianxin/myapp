@@ -16,6 +16,7 @@ import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { CarouselComponent } from './home/carousel/carousel.component';
 import { MainComponent } from './home/main/main.component';
 import { AboutComponent } from './home/about/about.component';
+import { DlcpComponent } from './dlcp/dlcp.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { AboutComponent } from './home/about/about.component';
     AboutComponent,
     CarouselComponent,
     MainComponent,
+    DlcpComponent,
   ],
   imports: [
     BrowserModule,
