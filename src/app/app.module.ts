@@ -17,6 +17,7 @@ import { CarouselComponent } from './home/carousel/carousel.component';
 import { MainComponent } from './home/main/main.component';
 import { AboutComponent } from './home/about/about.component';
 import { DlcpComponent } from './dlcp/dlcp.component';
+import { FanganComponent } from './fangan/fangan.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { DlcpComponent } from './dlcp/dlcp.component';
     CarouselComponent,
     MainComponent,
     DlcpComponent,
+    FanganComponent,
   ],
   imports: [
     BrowserModule,
