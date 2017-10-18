@@ -1,1 +1,96 @@
- 
+.w918 {
+  width: 1000px;
+  margin: 0 auto;
+  clear: both;
+  .banner {
+    img {
+      vertical-align: top;
+      max-width: 100%;
+    }
+  }
+}
+
+.w918 {
+  .news-list.p-news {
+    border-top: none;
+    padding-top: 15px;
+    .l {
+      float: left;
+    }
+    .r {
+      float: right;
+    }
+    .l,
+    .r {
+      width: 465px;
+      .b-border {
+        border-bottom: 1px solid #e9e9ea;
+        padding-bottom: 8px;
+      }
+      .main-title {
+        font-size: 16px;
+        color: #33cc33;
+        margin-bottom: 10px;
+        font {
+          font-size: 14px;
+          color: #333;
+          margin-left: 10px;
+        }
+      }
+      .main-list {
+        margin-top: 5px;
+        li {
+          background-image: url('http://www.skynoon.com/images/list-ico.jpg');
+          border-bottom: 1px solid #d7d7d7;
+          background: url('http://www.skynoon.com/images/main_ico.jpg') no-repeat 7px center;
+          a {
+            display: inline-block;
+            line-height: 32px;
+            height: 32px;
+            padding-left: 17px;
+            color: #666;
+          }
+          span {
+            display: inline-block;
+            line-height: 32px;
+            float: right;
+          }
+        }
+        li:hover {
+          a {
+            color: #33CC33;
+          }
+        }
+      }
+    }
+  }
+}
+
+.h20 {
+  height: 20px;
+  clear: both;
+}
+
+.h50 {
+  height: 50px;
+  clear: both;
+}
+
+.clear {
+  clear: both;
+  display: block;
+} // 移动端
+@media screen and (max-width: 999px) {
+  .w918 {
+    padding: 0 8px;
+    width: auto;
+    .news-list.p-news {
+      .l,.r{
+        width: 100%;
+        .main-list li span{
+          display: none;
+        }
+      }
+    }
+  }
+}
