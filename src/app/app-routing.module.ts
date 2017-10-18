@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { HomeComponent } from './home/home.component';
 import { DlcpComponent } from './dlcp/dlcp.component';
 import { FanganComponent } from './fangan/fangan.component';
+import { NewsComponent } from './news/news.component';
 const routes: Routes = [
     {
         path: '',
@@ -15,6 +16,10 @@ const routes: Routes = [
     {
         path: 'fangan',
         component: FanganComponent
+    },
+    {
+        path: 'news',
+        component: NewsComponent
     },
     {
         path: '**',

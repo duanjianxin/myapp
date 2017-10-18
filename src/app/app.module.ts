@@ -18,6 +18,7 @@ import { MainComponent } from './home/main/main.component';
 import { AboutComponent } from './home/about/about.component';
 import { DlcpComponent } from './dlcp/dlcp.component';
 import { FanganComponent } from './fangan/fangan.component';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { FanganComponent } from './fangan/fangan.component';
     MainComponent,
     DlcpComponent,
     FanganComponent,
+    NewsComponent,
   ],
   imports: [
     BrowserModule,
