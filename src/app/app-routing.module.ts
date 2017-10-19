@@ -13,6 +13,9 @@ import { FanganIotComponent } from './fangan/fangan-iot/fangan-iot.component';
 import { FanganDianyuanComponent } from './fangan/fangan-dianyuan/fangan-dianyuan.component';
 
 
+
+
+
 // 新闻
 import { NewsComponent } from './news/news.component';
 
