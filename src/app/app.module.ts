@@ -17,7 +17,16 @@ import { CarouselComponent } from './home/carousel/carousel.component';
 import { MainComponent } from './home/main/main.component';
 import { AboutComponent } from './home/about/about.component';
 import { DlcpComponent } from './dlcp/dlcp.component';
+
+// 解决方案
 import { FanganComponent } from './fangan/fangan.component';
+import { FanganHomeComponent } from './fangan/fangan-home/fangan-home.component';
+import { FanganXiaofeiComponent } from './fangan/fangan-xiaofei/fangan-xiaofei.component';
+import { FanganLEDComponent } from './fangan/fangan-led/fangan-led.component';
+import { FanganIotComponent } from './fangan/fangan-iot/fangan-iot.component';
+import { FanganDianyuanComponent } from './fangan/fangan-dianyuan/fangan-dianyuan.component';
+
+// 新闻
 import { NewsComponent } from './news/news.component';
 
 @NgModule({
@@ -32,6 +41,11 @@ import { NewsComponent } from './news/news.component';
     DlcpComponent,
     FanganComponent,
     NewsComponent,
+    FanganHomeComponent,
+    FanganXiaofeiComponent,
+    FanganLEDComponent,
+    FanganIotComponent,
+    FanganDianyuanComponent,
   ],
   imports: [
     BrowserModule,
