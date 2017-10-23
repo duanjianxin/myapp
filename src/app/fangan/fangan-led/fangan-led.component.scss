@@ -1,0 +1,101 @@
+.w1000 {
+  margin: 0 auto;
+  position: relative;
+  clear: both;
+  width: 1000px;
+  .b-border {
+    border-bottom: 1px solid #e9e9ea;
+    padding-bottom: 8px;
+  }
+  .main-title {
+    font-size: 16px;
+    color: #33cc33;
+    margin-bottom: 10px;
+    font {
+      font-size: 14px;
+      color: #333;
+      margin-left: 10px;
+    }
+  }
+  .s-list {
+    ul {
+      li {
+        border-bottom: 1px solid #33cc33;
+        padding: 20px 0;
+        .s-title {
+          margin-bottom: 10px;
+          a {
+            font-weight: bold;
+            font-size: 14px;
+            text-decoration: none;
+            color: #666;
+          }
+          a:hover {
+            color: #33cc33;
+          }
+        }
+        .s-img {
+          padding: 5px 15px;
+          border: 1px solid #d7d7d7;
+          margin-top: 10px;
+          img {
+            vertical-align: top;
+            max-width: 100%;
+            width: 77px;
+          }
+        }
+        .l {
+          float: left;
+        }
+        .s-intro {
+          width: 850px;
+        }
+        .r {
+          float: right;
+        }
+        .clear {
+          clear: both;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.h20 {
+  height: 20px;
+  clear: both;
+}
+
+.h50 {
+  height: 50px;
+  clear: both;
+}
+
+// 移动端
+@media screen and (max-width: 999px) {
+  .w1000 {
+    padding: 0 8px;
+    width: auto;
+    .s-list {
+      ul {
+        li {
+          .s-img {
+            float: left;
+            margin-right: 8px;
+          }
+          .r {
+            float: none;
+          }
+          .s-intro {
+            width: auto;
+            p {
+              background: none;
+              margin-bottom: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
