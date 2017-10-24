@@ -28,6 +28,21 @@ import { FanganDianyuanComponent } from './fangan/fangan-dianyuan/fangan-dianyua
 
 // 新闻
 import { NewsComponent } from './news/news.component';
+import { NewshomeComponent } from './news/newshome/newshome.component';
+import { Gszx120Component } from './news/gszx/gszx120/gszx120.component';
+import { Gszx112Component } from './news/gszx/gszx112/gszx112.component';
+import { Gszx110Component } from './news/gszx/gszx110/gszx110.component';
+import { Gszx100Component } from './news/gszx/gszx100/gszx100.component';
+import { Gszx35Component } from './news/gszx/gszx35/gszx35.component';
+import { Hangye127Component } from './news/hangye/hangye127/hangye127.component';
+import { Hangye125Component } from './news/hangye/hangye125/hangye125.component';
+import { Hangye124Component } from './news/hangye/hangye124/hangye124.component';
+import { Hangye123Component } from './news/hangye/hangye123/hangye123.component';
+import { Hangye122Component } from './news/hangye/hangye122/hangye122.component';
+
+// 人才招聘
+import { JobComponent } from './job/job.component';
+import { JobhomeComponent } from './job/jobhome/jobhome.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +61,19 @@ import { NewsComponent } from './news/news.component';
     FanganLEDComponent,
     FanganIotComponent,
     FanganDianyuanComponent,
+    Gszx120Component,
+    NewshomeComponent,
+    Gszx112Component,
+    Gszx110Component,
+    Gszx100Component,
+    Gszx35Component,
+    Hangye127Component,
+    Hangye125Component,
+    Hangye124Component,
+    Hangye123Component,
+    Hangye122Component,
+    JobComponent,
+    JobhomeComponent,
   ],
   imports: [
     BrowserModule,

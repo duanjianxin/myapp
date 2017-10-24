@@ -18,6 +18,23 @@ import { FanganDianyuanComponent } from './fangan/fangan-dianyuan/fangan-dianyua
 
 // 新闻
 import { NewsComponent } from './news/news.component';
+import { NewshomeComponent } from './news/newshome/newshome.component';
+import { Gszx120Component } from './news/gszx/gszx120/gszx120.component';
+import { Gszx112Component } from './news/gszx/gszx112/gszx112.component';
+import { Gszx110Component } from './news/gszx/gszx110/gszx110.component';
+import { Gszx100Component } from './news/gszx/gszx100/gszx100.component';
+import { Gszx35Component } from './news/gszx/gszx35/gszx35.component';
+import { Hangye127Component } from './news/hangye/hangye127/hangye127.component';
+import { Hangye125Component } from './news/hangye/hangye125/hangye125.component';
+import { Hangye124Component } from './news/hangye/hangye124/hangye124.component';
+import { Hangye123Component } from './news/hangye/hangye123/hangye123.component';
+import { Hangye122Component } from './news/hangye/hangye122/hangye122.component';
+
+
+// 人才招聘
+import { JobComponent } from './job/job.component';
+import { JobhomeComponent } from './job/jobhome/jobhome.component';
+
 
 const routes: Routes = [
     {
@@ -55,7 +72,53 @@ const routes: Routes = [
     },
     {
         path: 'news',
-        component: NewsComponent
+        component: NewsComponent,
+        children: [
+            {
+                path: '',
+                component: NewshomeComponent
+            }, {
+                path: 'gszx120',
+                component: Gszx120Component
+            }, {
+                path: 'gszx112',
+                component: Gszx112Component
+            }, {
+                path: 'gszx110',
+                component: Gszx110Component
+            }, {
+                path: 'gszx100',
+                component: Gszx100Component
+            }, {
+                path: 'gszx35',
+                component: Gszx35Component
+            }, {
+                path: 'hangye127',
+                component: Hangye127Component
+            }, {
+                path: 'hangye125',
+                component: Hangye125Component
+            }, {
+                path: 'hangye124',
+                component: Hangye124Component
+            }, {
+                path: 'hangye123',
+                component: Hangye123Component
+            }, {
+                path: 'hangye122',
+                component: Hangye122Component
+            }
+        ]
+    },
+    {
+        path: 'job',
+        component: JobComponent,
+        children: [
+            {
+                path: '',
+                component: JobhomeComponent
+            }
+        ]
     },
     {
         path: '**',

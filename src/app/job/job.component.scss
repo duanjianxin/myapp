@@ -1,0 +1,52 @@
+.w918 {
+  width: 1000px;
+  margin: 0 auto;
+  .banner {
+    img {
+      vertical-align: top;
+      max-width: 100%;
+    }
+  } // 代理产品
+  .b-border {
+    border-bottom: 1px solid #e9e9ea;
+    padding-bottom: 8px;
+  }
+  .main-title {
+    font-size: 16px;
+    color: #33cc33;
+    margin-bottom: 10px;
+  } // li
+  .p-list {
+    li {
+      float: left;
+      margin: 0 18px 20px;
+      img {
+        vertical-align: top;
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+.h50 {
+  height: 50px;
+  clear: both;
+}
+
+.clear {
+  clear: both;
+  display: block;
+} // 移动端
+@media screen and (max-width: 999px) {
+  .w918 {
+    padding: 0 8px;
+    width: auto;
+    .p-list {
+      li {
+        width: 33.3333%;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}
