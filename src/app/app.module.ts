@@ -43,6 +43,13 @@ import { Hangye122Component } from './news/hangye/hangye122/hangye122.component'
 // 人才招聘
 import { JobComponent } from './job/job.component';
 import { JobhomeComponent } from './job/jobhome/jobhome.component';
+import { Job119Component } from './job/job119/job119.component';
+import { Job118Component } from './job/job118/job118.component';
+import { Job117Component } from './job/job117/job117.component';
+import { Job116Component } from './job/job116/job116.component';
+import { Job115Component } from './job/job115/job115.component';
+import { Job114Component } from './job/job114/job114.component';
+import { Job113Component } from './job/job113/job113.component';
 
 @NgModule({
   declarations: [
@@ -74,6 +81,13 @@ import { JobhomeComponent } from './job/jobhome/jobhome.component';
     Hangye122Component,
     JobComponent,
     JobhomeComponent,
+    Job119Component,
+    Job118Component,
+    Job117Component,
+    Job116Component,
+    Job115Component,
+    Job114Component,
+    Job113Component,
   ],
   imports: [
     BrowserModule,

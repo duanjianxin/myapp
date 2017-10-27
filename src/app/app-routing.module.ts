@@ -34,7 +34,13 @@ import { Hangye122Component } from './news/hangye/hangye122/hangye122.component'
 // 人才招聘
 import { JobComponent } from './job/job.component';
 import { JobhomeComponent } from './job/jobhome/jobhome.component';
-
+import { Job119Component } from './job/job119/job119.component';
+import { Job118Component } from './job/job118/job118.component';
+import { Job117Component } from './job/job117/job117.component';
+import { Job116Component } from './job/job116/job116.component';
+import { Job115Component } from './job/job115/job115.component';
+import { Job114Component } from './job/job114/job114.component';
+import { Job113Component } from './job/job113/job113.component';
 
 const routes: Routes = [
     {
@@ -117,6 +123,34 @@ const routes: Routes = [
             {
                 path: '',
                 component: JobhomeComponent
+            },
+            {
+                path: 'job119',
+                component: Job119Component
+            },
+            {
+                path: 'job118',
+                component: Job118Component
+            },
+            {
+                path: 'job117',
+                component: Job117Component
+            },
+            {
+                path: 'job116',
+                component: Job116Component
+            },
+            {
+                path: 'job115',
+                component: Job115Component
+            },
+            {
+                path: 'job114',
+                component: Job114Component
+            },
+            {
+                path: 'job113',
+                component: Job113Component
             }
         ]
     },
