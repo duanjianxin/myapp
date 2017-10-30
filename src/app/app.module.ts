@@ -51,6 +51,13 @@ import { Job115Component } from './job/job115/job115.component';
 import { Job114Component } from './job/job114/job114.component';
 import { Job113Component } from './job/job113/job113.component';
 
+// 关于我们
+import { MaboutComponent } from './mabout/mabout.component';
+import { AbouthomeComponent } from './mabout/abouthome/abouthome.component';
+import { AboutActivityComponent } from './mabout/about-activity/about-activity.component';
+// 联系我们
+import { LianxiComponent } from './lianxi/lianxi.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -88,6 +95,10 @@ import { Job113Component } from './job/job113/job113.component';
     Job115Component,
     Job114Component,
     Job113Component,
+    MaboutComponent,
+    AbouthomeComponent,
+    AboutActivityComponent,
+    LianxiComponent,
   ],
   imports: [
     BrowserModule,

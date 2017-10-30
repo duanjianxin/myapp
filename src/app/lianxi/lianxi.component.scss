@@ -1,0 +1,149 @@
+.w918 {
+    width: 1000px;
+    margin: 0 auto;
+    .banner {
+        img {
+            vertical-align: top;
+            max-width: 100%;
+        }
+    } // 代理产品
+    .b-border {
+        border-bottom: 1px solid #e9e9ea;
+        padding-bottom: 8px;
+    }
+    .main-title {
+        font-size: 16px;
+        color: #33cc33;
+        margin-bottom: 10px;
+    } // li
+    .p-list {
+        li {
+            float: left;
+            margin: 0 18px 20px;
+            img {
+                vertical-align: top;
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+.w1000 {
+    width: 1000px;
+    margin: 0 auto;
+    clear: both;
+    .main-title {
+        font-size: 16px;
+        color: #33cc33;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #e9e9ea;
+        padding-bottom: 8px;
+        font {
+            font-size: 14px;
+            color: #333;
+            margin-left: 10px;
+        }
+    }
+    .contact {
+        p {
+            display: block;
+            -webkit-margin-before: 1em;
+            -webkit-margin-after: 1em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+        }
+        .contact-slide {
+            position: relative;
+            .code {
+                position: absolute;
+                z-index: 10;
+                top: 80px;
+                right: 0;
+                width: 160px;
+                text-align: center;
+                .code-img img {
+                    width: 116px;
+                    height: 116px;
+                    padding: 5px;
+                    border: 1px solid #d7d7d7;
+                }
+                .code-text {
+                    line-height: 24px;
+                    font-size: 14px;
+                    padding: 5px 0;
+                }
+            }
+            .hd {
+                border: 1px solid #d7d7d7;
+                border-right: none;
+                display: inline-block;
+                .clear {
+                    clear: both;
+                    display: block;
+                }
+                li {
+                    float: left;
+                    width: 249px;
+                    height: 60px;
+                    line-height: 60px;
+                    text-align: center;
+                    font-size: 16px;
+                    border-right: 1px solid #d7d7d7;
+                    cursor: pointer;
+                }
+                li.on {
+                    color: #fff;
+                    background: #33cc33;
+                }
+            }
+            .bd {
+                padding: 10px 0;
+                .contact-call {
+                    .call-title {
+                        color: #33cc33;
+                        background: url(http://www.skynoon.com/) no-repeat left center;
+                        font-size: 16px;
+                        padding-left: 10px;
+                        margin: 15px 0;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.h20 {
+    height: 20px;
+    clear: both;
+}
+
+.h50 {
+    height: 50px;
+    clear: both;
+}
+
+.clear {
+    clear: both;
+    display: block;
+} // 移动端
+@media screen and (max-width: 999px) {
+    .w918 {
+        padding: 0 8px;
+        width: auto;
+        .p-list {
+            li {
+                width: 33.3333%;
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+    .w1000 {
+        padding: 0 8px;
+        width: auto;
+        img {
+            max-width: 100% !important;
+        }
+    }
+}
