@@ -145,5 +145,19 @@
         img {
             max-width: 100% !important;
         }
+        .contact {
+            .contact-slide {
+                .hd {
+                    width: 90%;
+                    margin: 0 auto;
+                    ul li {
+                        width: 25%;
+                    }
+                }
+                .code {
+                    display: none;
+                }
+            }
+        }
     }
 }
